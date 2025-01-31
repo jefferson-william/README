@@ -6,6 +6,7 @@
 - [Google Chrome Canary](https://www.google.com/chrome/canary/)
 - [Visual Studio Code](https://code.visualstudio.com/docs/?dv=osx)
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=mac)
+- [Docker](https://docs.docker.com/desktop/setup/install/mac-install/)
 
 ## terminal
 
