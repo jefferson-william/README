@@ -52,3 +52,16 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
+
+## Development
+
+```sh
+git config --global user.name ""
+git config --global user.email ""
+
+bun add --global aws-sdk sst
+
+cd ~
+mkdir -p .aws
+touch ~/.aws/credentials
+```
