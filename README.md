@@ -28,12 +28,12 @@ zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 curl -sS https://starship.rs/install.sh | sh
-
-code ~/.zshrc
 ```
 
+## zsh
+
 ```sh
-# ~/.zshrc
+code ~/.zshrc
 
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
