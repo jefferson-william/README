@@ -15,6 +15,7 @@
 - nvm
 - Zsh
 - Zap (zsh plugins manager)
+- Watchman
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -28,6 +29,8 @@ zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 curl -sS https://starship.rs/install.sh | sh
+
+brew install watchman
 ```
 
 ## zsh
